@@ -1,0 +1,13 @@
+name = "telegram-notify-bot"
+main = "src/index.js"
+compatibility_date = "2024-01-29"
+
+[vars]
+CF_ACCOUNT_ID = "e1ab85903e4701fa311b5270c16665f6"
+TELEGRAM_CHAT_ID = "TWISTER5.CLOUDFLARE.ALERT.NOTIFICATION"
+# 秘密變數需要使用 wrangler secret 來設定
+# wrangler secret put TELEGRAM_BOT_TOKEN
+# wrangler secret put CF_API_TOKEN
+#curl -X POST https://api.telegram.org/bot7849972453:AAEGUl55-KcD6rqZBEMfPZBrHJe71zslCpU/setWebhook \
+# -H "Content-Type: application/json" \
+#  -d '{"url": "https://telegram-notify-bot.dennis-lee.workers.dev"}'

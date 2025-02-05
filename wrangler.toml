@@ -1,0 +1,9 @@
+name = "cloudflare-notify-telegram"
+main = "src/index.js"
+compatibility_date = "2024-01-29"
+
+[vars]
+TELEGRAM_CHAT_ID = "您的Telegram聊天ID"
+
+# 使用以下指令設定 bot token
+# wrangler secret put TELEGRAM_BOT_TOKEN 
